@@ -29,7 +29,7 @@ screen = Curses.stdscr
 screen.nodelay = true
 screen.clear
 
-while true
+loop do
   for col in 0...Curses.cols
     for row in 0...Curses.lines
       screen.setpos(row, col)

@@ -53,7 +53,7 @@ center_x = Curses.cols / 2
 center_y = Curses.lines / 2
 player = Player.new(center_x, center_y)
 
-while true
+loop do
   player.render
   screen.refresh
 
